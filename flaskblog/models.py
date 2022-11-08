@@ -1,4 +1,4 @@
-from flaskblog import db
+from flaskblog import db, migrate
 from datetime import datetime
 
 class User(db.Model):
